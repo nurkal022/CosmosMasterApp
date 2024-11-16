@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ғарыш туралы</title>
+    <style>
+        /* Жарқын түстерге негізделген стильдер */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f8ff;
+        }
+        header {
+          background-color: #1e90ff;
+          color: #fff;
+          padding: 30px;
+          text-align: center;
+        }
+        h1 {
+          font-size: 36px;
+          margin-bottom: 10px;
+        }
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+        }
+        nav li {
+          margin: 0 20px;
+        }
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 18px;
+        }
+        main {
+          padding: 40px;
+        }
+        section {
+          margin-bottom: 40px;
+        }
+        h2 {
+          color: #1e90ff;
+          font-size: 28px;
+          margin-bottom: 20px;
+        }
+        p {
+          line-height: 1.5;
+          margin-bottom: 20px;
+        }
+        .image-container {
+          text-align: center;
+        }
+        .image-container img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .fact-container {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          grid-gap: 20px;
+        }
+        .fact-item {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .fact-item h3 {
+          color: #1e90ff;
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        footer {
+          background-color: #1e90ff;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        /* Стили для чата n8n */
+        #n8n-chat .chat-window {
+          background-color: #f0f8ff;
+          border-radius: 15px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #n8n-chat .chat-header {
+          background-color: #1e90ff;
+          color: #fff;
+          border-radius: 15px 15px 0 0;
+          padding: 10px;
+        }
+
+        #n8n-chat .chat-header h1 {
+          color: #fff;
+          font-size: 20px;
+          margin: 0;
+        }
+
+        #n8n-chat .chat-header p {
+          margin: 5px 0 0;
+          font-size: 14px;
+        }
+
+        #n8n-chat .chat-message {
+          background-color: #fff;
+          border-radius: 10px;
+          margin: 10px;
+          padding: 15px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          max-width: 80%;
+        }
+
+        #n8n-chat .chat-message.chat-message-from-bot {
+          background-color: #e6f3ff;
+          margin-right: auto;
+        }
+
+        #n8n-chat .chat-message.chat-message-from-user {
+          background-color: #1e90ff;
+          color: white;
+          margin-left: auto;
+        }
+
+        #n8n-chat .chat-message.chat-message-from-user .chat-message-markdown p {
+          color: white;
+          margin: 0;
+        }
+
+        #n8n-chat .chat-footer {
+          border-top: 1px solid #e0e0e0;
+          padding: 15px;
+        }
+
+        #n8n-chat textarea {
+          border: 2px solid #1e90ff;
+          border-radius: 8px;
+          padding: 10px;
+        }
+
+        #n8n-chat .chat-input-send-button {
+          background-color: #1e90ff;
+          color: #fff;
+          border-radius: 50%;
+          padding: 8px;
+        }
+
+        #n8n-chat .chat-window-toggle {
+          background-color: #1e90ff;
+          border-radius: 50%;
+          color: #fff;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Ғарыш туралы</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Басты бет</a></li>
+            <li><a href="about.html">Біз туралы</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Ғарыш туралы қызықты деректер</h2>
+        <div class="image-container">
+            <img src="foto.jpg" alt="Ғарыш туралы">
+        </div>
+        <p>Ғарыш - бұл ғаламшарлар мен жұлдыздардың өмір сүретін ұшан-теңіз кеңістік. Ғарышта көптеген қызықты жәйттер бар:</p>
+        <ul>
+            <li>Жердегі барлық адамдар бір-біріне жақын орналасса, бәріміз бірге Ай бетіне сиятын болармыз.</li>
+            <li>Ғарышта дыбыс таралмайды, себебі ондағы ауа жоқ.</li>
+            <li>Ғарышта ауырлық күші әлсіз болғандықтан, адамдар қолмен жоғары секіре алады.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Ғарышқа саяхат</h2>
+        <div class="image-container">
+            <img src="foto (2).jpg" alt="Ғарышқа саяхат">
+        </div>
+        <p>Ғарышқа саяхат жасау адамзаттың ежелден арманы болып келеді. Бүгінгі күні ғарышқа ұшу мүмкіндігі бар және адамдар Жер маңындағы ғарыш станцияларында тұра алады.</p>
+    </section>
+    <section>
+        <h2>Ғарыш туралы сұрақтар</h2>
+        <div class="fact-container">
+            <div class="fact-item">
+                <h3>Ғарыштың түсі қандай?</h3>
+                <p>Ғарыштың түсі көктемсі көк. Бұл көкжиектен жұлдыздардың жарығының шашырауынан пайда болады.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Жер ғаламшарының мөлшері қандай?</h3>
+                <p>Жер ғаламшарының диаметрі шамамен 12,700 километр. Ол Күннің диаметрінен 109 есе кішкентай.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Ғарышта дыбыс тарайма ма?</h3>
+                <p>Ғарышта дыбыс таралмайды, себебі ондағы ауа жоқ. Дыбыс ауа арқылы таралады.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Ғарышта ауырлық күші қандай?</h3>
+                <p>Ғарышта ауырлық күші Жердегімен салыстырғанда әлдеқайда әлсіз. Сондықтан ғарышта адамдар қолмен жоғары секіре алады.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Ғарыш туралы қызықты деректер</h2>
+        <div class="fact-container">
+            <div class="fact-item">
+                <h3>Ай - жалғыз табиғи серігіміз</h3>
+                <p>Ай - Жердің жалғыз табиғи серігі. Ол Жерден орташа алғанда 384,400 километр қашықтықта орналасқан.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Жерден тыс өмір бар ма?</h3>
+                <p>Ғылыми зерттеулер ғарышта өмір бар екендігін көрсетіп отыр. Бірақ ол өмір адамдардың елестететін сияқты күрделі емес.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Алғашқы ғарыш саяхатшылары</h3>
+                <p>Алғашқы ғарышқа ұшқан адамдар 1961 жылы Юрий Гагарин (Кеңес Одағы) және 1962 жылы Джон Гленн (АҚШ) болды.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Ғарыш станциялары</h3>
+                <p>Жер маңындағы ғарыш станцияларына мысал ретінде Халықаралық ғарыш станциясын (ХҒС) келтіруге болады.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js'
+
+    createChat({
+        webhookUrl: 'https://nurkal022.app.n8n.cloud/webhook/50ab3f53-c746-4348-9a4b-e2224c6faefb/chat',
+      webhookConfig: {
+        method: 'POST',
+        headers: {}
+      },
+      target: '#n8n-chat',
+      mode: 'window',
+      chatInputKey: 'chatInput',
+      chatSessionKey: 'sessionId',
+      metadata: {},
+      showWelcomeScreen: false,
+      defaultLanguage: 'en',
+      initialMessages: [
+        'Сәлем 👋, Менің атым КосмоМастер. Космос туралы қандай сұрақтарыңыз бар? 😊'
+      ],
+      i18n: {
+        en: {
+          title: 'Ғарышқа саяхат: Сұрақ қой да, жауабын ал!',
+          subtitle: "Біз сізге тәулік бойы көмектесуге дайынбыз!",
+          footer: '',
+          getStarted: 'New Conversation',
+          inputPlaceholder: 'Мен білгім келеді',
+        },
+      },
+    });
+</script>
+<footer>
+    <p>&copy; 2024 Ғарыш туралы. Барлық құқықтары қорғалған.</p>
+</footer>
+</body>
+</html>
